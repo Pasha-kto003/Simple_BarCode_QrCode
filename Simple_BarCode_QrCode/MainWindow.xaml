@@ -1,0 +1,16 @@
+﻿<Window x:Class="Simple_BarCode_QrCode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Simple_BarCode_QrCode"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnBarcode" Click="BtnBarcodeClick" Content="Barcode" HorizontalAlignment="Left" Height="30" Width="80" Margin="696,167,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.538,-3.277"/>
+        <TextBox x:Name="txtBarcode" HorizontalAlignment="Left" Height="30" Margin="497,167,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Image x:Name="pictureBox" HorizontalAlignment="Left" Height="145" Margin="61,167,0,0" VerticalAlignment="Top" Width="403"/>
+        <Button x:Name="btnQrCode" Click="QRCodeClick" Content="QrCode" HorizontalAlignment="Left" Height="30" Width="80" Margin="696,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.538,-3.277"/>
+        <TextBox x:Name="txtQrcode" HorizontalAlignment="Left" Height="30" Margin="497,283,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+    </Grid>
+</Window>
